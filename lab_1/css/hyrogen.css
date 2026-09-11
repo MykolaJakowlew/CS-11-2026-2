@@ -1,0 +1,53 @@
+body {
+    background-color: #8895fe;
+}
+
+.chemical-element {
+    width: 200px;
+    height: 200px;
+    background-color: #2297ff;
+    border-radius: 15px;
+    font-size: 30px;
+    border: 2px solid black;
+    color: whitesmoke;
+    font-family: Roboto;
+}
+
+.background-red {
+    background-color: rgb(161, 40, 40);
+}
+
+.chemical-element {
+  box-shadow: -5px 8px 6px 3px #000000;
+  transition: 0.2s;
+}
+
+.chemical-element:hover {
+    color: darkgreen
+}
+
+.chemical-element > div {
+    text-align: center;
+}
+.chemical-element > div:first-child {
+    box-sizing: border-box;
+    font-size: 20px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.chemical-element > div:last-child {
+    font-size: 35px;
+    height: 50px;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+.chemical-element > div:nth-child(2) {
+    font-size: 100px;
+    height: 100px;
+}
+.row-number {
+    color: whitesmoke;
+    font-size: 70px;
+}
