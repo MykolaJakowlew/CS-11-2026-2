@@ -1,0 +1,31 @@
+.item {
+    width: 100%;
+    aspect-ratio: 1 / 1.5;
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item>img {
+    width: 90%;
+}
+
+
+.title {
+    font-size: 26px;
+    color: blueviolet;
+}
+
+.order_1 {
+    order: 1
+}
+.order_2 {
+    order: 2
+}
+.order_3 {
+    order: 3
+}
